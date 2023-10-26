@@ -12,4 +12,4 @@ import './styles/app.css';
 import './bootstrap';
 
 // enable the interactive UI components from Flowbite
-import 'flowbite';
+import 'flowbite-2.0';
