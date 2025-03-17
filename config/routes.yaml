@@ -7,3 +7,47 @@ controllers:
 index:
     path: /
     controller: App\Controller\DefaultController::index
+
+accordion:
+    path: /accordion
+    controller: App\Controller\DefaultController::accordion
+
+modal:
+    path: /modal
+    controller: App\Controller\DefaultController::modal
+
+collapse:
+    path: /collapse
+    controller: App\Controller\DefaultController::collapse
+
+speed-dial:
+    path: /dial
+    controller: App\Controller\DefaultController::speedDial
+
+drawer:
+    path: /drawer
+    controller: App\Controller\DefaultController::drawer
+
+dropdown:
+    path: /dropdown
+    controller: App\Controller\DefaultController::dropdown
+
+popover:
+    path: /popover
+    controller: App\Controller\DefaultController::popover
+
+tabs:
+    path: /tabs
+    controller: App\Controller\DefaultController::tabs
+
+tooltip:
+    path: /tooltip
+    controller: App\Controller\DefaultController::tooltip
+
+input-counter:
+    path: /input-counter
+    controller: App\Controller\DefaultController::inputCounter
+
+datepicker:
+    path: /datepicker
+    controller: App\Controller\DefaultController::datepicker
